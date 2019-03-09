@@ -11,7 +11,7 @@
   <span role="img" aria-label="Sparkles">✨</span>
 </h3>
 <p align="center">
-  <strong>Personal reflection of the self.</strong><br>
+  <strong>Personal reflection to the thoughts of one's self.</strong><br>
   Sweet and simple message.
 </p>
 
