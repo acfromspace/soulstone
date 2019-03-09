@@ -1,20 +1,21 @@
+html {
+  background-color: #000000;
+  color: #d1bee5;
+  font-family: "8-bit Operator+ Bold";
+}
+
 body {
   margin: 0;
   padding: 0;
 }
 
-html {
-  font-family: "8-bit Operator+ Bold";
-  color: #d1bee5;
-}
-
 @font-face {
   font-family: "8-bit Operator+ Bold";
+  font-style: normal;
+  font-weight: normal;
   src: url("../fonts/8bitOperatorPlus-Bold.eot") format("eot"),
     url("../fonts/8bitOperatorPlus-Bold.woff") format("woff"),
     url("../fonts/8bitOperatorPlus-Bold.ttf") format("truetype"),
     url("../fonts/8bitOperatorPlus-Bold.svg#8bitOperatorPlus-Bold")
       format("svg");
-  font-weight: normal;
-  font-style: normal;
 }

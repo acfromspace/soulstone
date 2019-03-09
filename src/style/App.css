@@ -1,10 +1,9 @@
 .Main {
-  text-align: center;
-  background-color: #000000;
-  min-height: 100vh;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "Header" "Footer";
+  min-height: 100vh;
+  text-align: center;
 }
 
 .App-logo {
@@ -14,17 +13,17 @@
 
 .Header {
   grid-area: Header;
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .Footer {
   grid-area: Footer;
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
-  font-size: 2vw;
+  /* font-size: 2vmin; */
 }
 
 @keyframes Im-floating-yay {
