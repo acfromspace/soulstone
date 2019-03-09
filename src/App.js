@@ -1,28 +1,17 @@
 import React, { Component } from "react";
-import SoundCloudPlayer from "react-player/lib/players/SoundCloud";
-import astronaut from "./astronaut.svg";
-import "./App.css";
+import "./style/App.css";
 
+import Header from "./components/Header.js";
+import Footer from "./components/Footer.js";
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <SoundCloudPlayer
-          className="react-player"
-          url="https://soundcloud.com/not-bees/datewave"
-          playing="true"
-          loop="true"
-        />
-        <div className="Astronaut">
-          <img src={astronaut} className="App-logo" alt="acfromspace" />
-        </div>
-        <div className="Textbox">
-          <h1>YOU ARE LOVED</h1>
-        </div>
+      <div className="Main">
+        <Header />
+        <Footer />
       </div>
     );
   }
 }
 
-// https://facebook.github.io/create-react-app/docs/adding-images-fonts-and-files
 export default App;
