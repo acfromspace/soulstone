@@ -25,7 +25,7 @@
         <img src="https://www.repostatus.org/badges/latest/unsupported.svg" alt="Project Status: Unsupported – The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired." /></a>
 </p>
 
-<!-- FEATURES -->
+<!-- LICENSE -->
 
 ## <span role="img" aria-label="Oncoming Police Car">🚔</span> [License](LICENSE)
 
